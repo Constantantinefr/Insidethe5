@@ -11,7 +11,7 @@ function Tabmanager() {
     const [activeTab, setActiveTab] = useState(<Home />);
 
     const handleHome = () => {
-        setActiveTab(<Home />)
+        setActiveTab(<Home setActiveTab = {setActiveTab}/>)
     }
     const handleMenu = () => {
         setActiveTab(<Menu />)
