@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a href = "home" id = "topthing"><h1>Inside the Five</h1></a>
+        <a href = "/" id = "topthing"><h1>Inside the Five</h1></a>
       </header>
       <body>
         <Tabmanager />

@@ -31,13 +31,13 @@ function Tabmanager() {
         return (
             <div id = "mainpage">
                 <header >
-                    <ul>
-                        <li><a  onClick={handleHome}>Home</a></li>
-                        <li><a  onClick={handleMenu}>Menu</a></li>
-                        <li><a  onClick={handleCatering}>Catering</a></li>
-                        <li><a  onClick={handleContact}>Contact Us</a></li>
-                        <li><a  onClick={handleLogin}>Register/Login</a></li>
-                        <li><a  onClick={handleOrder}>Order Online</a></li>
+                    <ul id = "navbar">
+                        <li id = "navbar"><a  onClick={handleHome}>Home</a></li>
+                        <li id = "navbar"><a  onClick={handleMenu}>Menu</a></li>
+                        <li id = "navbar"><a  onClick={handleCatering}>Catering</a></li>
+                        <li id = "navbar"><a  onClick={handleContact}>Contact Us</a></li>
+                        <li id = "navbar"><a  onClick={handleLogin}>Register/Login</a></li>
+                        <li id = "navbar"><a  onClick={handleOrder}>Order Online</a></li>
                     </ul>
                 </header>
                 <body>
