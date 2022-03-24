@@ -47,6 +47,14 @@ th{
   border-right: solid;
 }
 
+#navbar {
+  background-color: slategray;
+  color: white;
+  border-style: solid;
+  border-color: black;
+}
+
+
 #headercontact {
   font-weight: bold;
 }
