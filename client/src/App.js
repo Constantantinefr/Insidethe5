@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 import Button from '@mui/material/Button';*/
 
 function App() {
-  return (
+  return ( 
     <div className="App">
       <header className="App-header">
         <a href = "/" id = "topthing"><h1>Inside the Five</h1></a>

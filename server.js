@@ -8,10 +8,10 @@ const conString = "AccountEndpoint=https://insidethefive2-db.documents.azure.com
 const port = process.env.PORT || 8080
 const path = require('path')
 const client = new CosmosClient(conString)
-const db = client.database("insidethefive2-db")
+const db = client.database("InsidetheFive-db")
 const container = db.container("test")
 
-app.use(express.json())
+app.use(express.json()) 
 app.use(express.static(path.join(__dirname, "/client/build")))
 
 app.get('/users', (req, res) => {
@@ -30,7 +30,7 @@ app.get("/hello/:name", async (req,res) => {
     }
     container.items.create(data)
         .catch((err) => {console.error(err)})
-    const hellos = await container.items.query("SELECT * FROM c")
+    const {resources: hellos} = await container.items.query("SELECT * FROM c")
         .fetchAll()
     res.send(JSON.stringify(hellos))
 })
