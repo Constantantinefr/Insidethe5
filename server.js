@@ -22,6 +22,18 @@ app.get('/users', (req, res) => {
     })
 })
 
+app.post('/register', (req, res) => {
+    const {username, name, password, address} = req.body
+    const data = {
+        id: Date.now().toString(),
+        username,
+        name,
+        password,
+        address
+    }
+    container.items.create(data)
+})
+
 app.get("/hello/:name", async (req,res) => {
     const data = {
         id: Date.now().toLocaleString(),
