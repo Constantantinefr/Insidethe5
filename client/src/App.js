@@ -12,6 +12,7 @@ function App() {
         <a href = "/" id = "topthing"><h1>Inside the Five</h1></a>
       </header>
       <body>
+        
         <Tabmanager />
       </body>
     </div>

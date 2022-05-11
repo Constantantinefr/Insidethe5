@@ -14,7 +14,7 @@ function Contact() {
             <text id = "headercontact">Thursday:</text> 11am-10pm (kitchen closes @ 9pm)<br/>
             <text id = "headercontact">Firday:</text> 11am-12am (kitchen closes @ 11pm)<br/>
             <text id = "headercontact">Saturday:</text> 11am-12am (kitchen closes @ 11pm)<br/>
-            <text id = "headercontact">Sunday:</text> Brunch 10am-3pm | Dinner 3pm-9pm (kitchne closes at 8pm)</text>
+            <text id = "headercontact">Sunday:</text> Brunch 10am-3pm | Dinner 3pm-9pm (kitchen closes at 8pm)</text>
             {//<MapContainer/>
 }
         </div>
