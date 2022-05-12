@@ -36,7 +36,7 @@ function Tabmanager() {
                         <li id = "navbar"><a  onClick={handleMenu}>Menu</a></li>
                         <li id = "navbar"><a  onClick={handleCatering}>Catering</a></li>
                         <li id = "navbar"><a  onClick={handleContact}>Contact Us</a></li>
-                        <li id = "navbar"><a  onClick={handleLogin}>Register/Login</a></li>
+                     {/*   <li id = "navbar"><a  onClick={handleLogin}>Register/Login</a></li>*/}
                         <li id = "navbar"><a  onClick={handleOrder}>Order Online</a></li>
                     </ul>
                 </header>
